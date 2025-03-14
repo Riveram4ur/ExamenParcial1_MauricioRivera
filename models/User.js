@@ -6,5 +6,4 @@ const userSchema = new mongoose.Schema({
   ocupacion: { type: String, required: true },
 });
 
-// Especificamos explícitamente la colección 'usuarios' en la base de datos
 module.exports = mongoose.model('User', userSchema, 'usuarios');

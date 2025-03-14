@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const Product = require('../models/Product');
 
-// Crear producto
 router.post('/', async (req, res) => {
   try {
     const product = new Product(req.body);
@@ -13,7 +12,6 @@ router.post('/', async (req, res) => {
   }
 });
 
-// Obtener todos los productos
 router.get('/', async (req, res) => {
   try {
     const products = await Product.find();
@@ -23,7 +21,6 @@ router.get('/', async (req, res) => {
   }
 });
 
-// Actualizar producto
 router.put('/:id', async (req, res) => {
   try {
     const product = await Product.findByIdAndUpdate(req.params.id, req.body, { new: true });
@@ -34,7 +31,6 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-// Eliminar producto
 router.delete('/:id', async (req, res) => {
   try {
     const product = await Product.findByIdAndDelete(req.params.id);

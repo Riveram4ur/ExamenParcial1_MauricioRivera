@@ -1,4 +1,4 @@
-# Backend Web Technologies II
+# Backend Tecnologias Web II
 
 Proyecto de Examen Parcial backend desarrollado con Node.js, Express.js y MongoDB para gestionar las colecciones `Usuarios` y `Productos`.
 
@@ -7,7 +7,7 @@ Proyecto de Examen Parcial backend desarrollado con Node.js, Express.js y MongoD
 - MongoDB (instalado y corriendo localmente en `mongodb://localhost:27017`)
 
 ## Instalación
-1. Clona este repositorio: "https://github.com/Riveram4ur/ExamenParcial1_MauricioRivera" o descomprime el archivo ZIP.
+1. Clona este repositorio: "https://github.com/Riveram4ur/ExamenParcial1_MauricioRivera/tree/master".
 2. Abre una terminal en la carpeta del proyecto.
 3. Ejecuta `npm install` para instalar las dependencias.
 4. Asegúrate de que MongoDB esté corriendo en tu máquina.
@@ -36,3 +36,5 @@ Proyecto de Examen Parcial backend desarrollado con Node.js, Express.js y MongoD
 
 ## Pruebas
 Usa Postman o Insomnia para probar los endpoints.
+
+## Developed by Mauricio Rivera Mayan

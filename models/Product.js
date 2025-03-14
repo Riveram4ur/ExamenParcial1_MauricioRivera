@@ -6,5 +6,4 @@ const productSchema = new mongoose.Schema({
   categoria: { type: String, required: true },
 });
 
-// Especificamos explícitamente la colección 'productos' en la base de datos
 module.exports = mongoose.model('Product', productSchema, 'productos');
